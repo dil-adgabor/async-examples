@@ -1,0 +1,16 @@
+{
+  "name": "async-examples",
+  "version": "1.0.0",
+  "description": "async examples",
+  "main": "index.js",
+  "scripts": {
+    "ex": "NUM=$1 npx ts-node -e \"import {ex} from './index'; ex();\""
+  },
+  "author": "adgabor@diligent.com",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^17.0.35",
+    "deasync": "^0.1.26",
+    "ts-node": "^10.8.0"
+  }
+}
